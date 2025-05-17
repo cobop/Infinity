@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 int main()
 {
     while(true)
@@ -8,6 +10,8 @@ int main()
     {
         1;
     }
+    cin >> infinity;
+    cout << infinity;
     }
     return true;
 }
