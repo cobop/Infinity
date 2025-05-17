@@ -6,6 +6,8 @@ I made this binary run both on an OS.
 I also made this binary run as a Boot Loader and an OS by turning my BIOS in CSM or Legacy, it doesn't work with UEFI.
 Here is the code:
 
+#include<iostream>
+using namespace std;
 int main()
 {
     while(true)
@@ -16,6 +18,8 @@ int main()
     {
         1;
     }
+    cin >> infinity;
+    cout << infinity;
     }
     return true;
 }
